@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible"
+        
+        content="IE=edge"> <meta name="viewport"
+        
+        content="width=device-width,
+        
+        initial-scale=1.0">
+        <title>Wedding Invitation</title>
+       <style>
+
+
+                body {
+                            margin: 0;
+                            padding: 0;
+                           /* Adjust this to set the height of the page */
+                            position: relative;
+                        }
+
+                .bg
+                {
+                    background-size: cover;
+                    background-position: left top;
+                    width: 120%;
+                    
+                    background-repeat: no-repeat;
+                    position: relative;
+                    height: 550px
+                    
+                    
+                }
+
+               
+
+                .middle-img
+                {
+                    position: absolute;
+                    
+                }
+                .icon
+                {
+                    width: 480px;
+                    position: absolute;
+                    top: -400px;
+                    bottom: 180px;
+                    left: 250px;
+                    right: 200px;
+                    height: 600px;
+                    mix-blend-mode:multiply;
+
+                }
+                
+                .side-top1
+                {
+                    position: absolute;
+                    right: 1290px;
+                    top: 350px;
+                    width: 90px;
+                    height: 90px;
+                    border:none;
+                    transform-origin: 50% 0%;
+                    object-fit: cover;
+                    border-radius: 180px;
+                    animation-name: side-top1;
+                    animation-duration: 3s;
+                    animation-delay: 2s;
+                    animation-iteration-count: infinite;
+                    animation-direction: linear;
+                    animation-timing-function: linear;    
+                }
+                .moves
+                {   
+                       
+                    position: absolute;    
+                    top: -300px;
+                    bottom: 100px;
+                    right:-1000px;
+                }
+
+                @keyframes side-top1
+                {
+                    0%
+                    {
+                         transform: rotate(0deg);
+
+                    }
+                    10%
+                    {
+                        transform: rotate(10deg);
+                    }
+                    20%
+                    {
+                        transform: rotate(20deg);
+                    }
+                    30%
+                    {
+                        transform: rotate(30deg);
+                    }
+                    40%
+                    {
+                        transform:rotate(40deg);
+                    }
+                    50%
+                    {
+                        transform:rotate(0deg);
+                    }
+                    60%
+                    {
+                        transform:rotate(-5deg);
+                    }
+                    70%
+                    {
+                        transform: rotate(-10deg);
+                    }
+                    80%
+                    {
+                        transform:rotate(-20deg);
+                    }
+                    90%
+                    {
+                        transform: rotate(-10deg);
+                    }
+                    100%
+                    {
+                        transform:rotate(0deg);
+                    }
+
+
+                }
+
+
+
+                .side-top2
+                {
+                    position: absolute;
+                    right: 1280px;
+                    top: 350px;
+                    width: 90px;
+                    height: 90px;
+                    border:none;
+                    transform-origin: 50% 0%;
+                    object-fit: cover;
+                    border-radius: 180px;
+                    animation-name: side-top2;
+                    animation-duration: 3s;
+                    animation-delay: 2s;
+                    animation-iteration-count: infinite;
+                    animation-direction: linear;
+                    animation-timing-function: linear;    
+                }
+                .moves1
+                {   
+                       
+                    position: absolute;    
+                    top: -300px;
+                    bottom: 100px;
+                    right:-1250px;
+                }
+
+                @keyframes side-top2
+                {
+                    0%
+                    {
+                         transform: rotate(0deg);
+
+                    }
+                    10%
+                    {
+                        transform: rotate(10deg);
+                    }
+                    20%
+                    {
+                        transform: rotate(20deg);
+                    }
+                    30%
+                    {
+                        transform: rotate(30deg);
+                    }
+                    40%
+                    {
+                        transform:rotate(40deg);
+                    }
+                    50%
+                    {
+                        transform:rotate(0deg);
+                    }
+                    60%
+                    {
+                        transform:rotate(-5deg);
+                    }
+                    70%
+                    {
+                        transform: rotate(-10deg);
+                    }
+                    80%
+                    {
+                        transform:rotate(-20deg);
+                    }
+                    90%
+                    {
+                        transform: rotate(-10deg);
+                    }
+                    100%
+                    {
+                        transform:rotate(0deg);
+                    }
+
+
+                }
+                     
+                .par
+                {
+                    position: relative;
+                    color: green;
+                    top: 40px;
+                    right: 140px;
+                    left: 100px;
+                    bottom: 100px;
+                    font-size: 40px;
+
+                }
+                .img-side
+                {
+                    position: absolute;
+                   
+                }
+
+                .wrapper {
+                     position: relative;
+                     text-align: center;
+                     overflow: hidden;
+                     display: flex;
+                     flex-direction: column;
+                }
+                .text{
+                    color: rgb(27, 9, 191);
+                    font-size: 20px;
+                    font-style: italic;
+                }
+                .banner-text{
+                    position: absolute;
+                    right: 100px;
+                    left: 40px;
+                    top: 250px;
+                    width: 250px;
+                    height: 250px;
+                    border:none;
+                    transform-origin: 50% 0%;
+            
+
+        .ml6 {
+            position: relative;
+        }
+
+        .ml6 .text-wrapper {
+            font-family:Great Vibes and Calibri;
+            position: relative;
+            display: block;
+            overflow: hidden;
+             
+
+        }
+
+        .ml6 .letter {
+            display: inline-block;
+
+        }
+    }
+
+        .banner .banner-text .title h1 span {
+            display: inline-block !important;
+        }
+
+        .banner .banner-text .statest,
+        .banner .banner-text .date {
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+
+        .glow {
+            padding: 49px 22px;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        .font-arial {
+            font-family: 'arial';
+        }
+       
+        .bgforimg
+        {
+            width: 240px;
+            height: 280px;
+            margin-bottom: 0px;
+    
+        
+            
+        }
+
+        .dateimg
+        {
+            margin-top:0px ;
+            mix-blend-mode: multiply;
+        }
+        .bgfordate
+        {
+            margin-top:-20px ;
+            
+        }
+
+
+        .date{
+            margin-top:-106px ;
+            margin-left: 100px;
+            color: rgb(209, 142, 19);
+            font-size: 17px;
+            position: absolute;
+
+        }
+
+        .movdate
+        {
+            height: 150px;
+            width: 300px;
+        }
+        .bava1
+        {
+            border-radius: 28px;
+            width:320px;
+            height:400px;
+            
+        }
+
+
+
+        .images-bava{
+            position: relative;
+        }
+
+         .bg2
+         {
+                    background-size: cover;
+                    background-position: left top;
+                    width: 100%;
+                    height: 400px;
+                    background-repeat: no-repeat;
+                    position: relative;
+                    
+             
+         }
+
+         .videomrg{
+
+          
+            margin-bottom:120px ;
+            width: 240px;
+            margin-top: -480px;
+            margin-left:98px;
+            height: 140px;
+            position: relative;
+            border-style:ridge ;
+            vertical-align: bottom;
+             
+
+         }
+         .names
+        {
+            display: flex;
+            flex-direction: column;
+            mix-blend-mode: multiply;
+            margin-top: -280px;
+            margin-left: -5px;
+            margin-right: -500px;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .date{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         h1{
+            left:45px;
+            bottom: 45px;
+            -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-color: rgb(254, 254, 252);
+            
+         }
+
+         
+    
+        
+         
+         .bavapicsecond
+         {
+            
+            width:312px;
+            height:440px;
+            margin-top: -630px;
+            position: absolute;
+            margin-left:-740px ;
+            
+            border:none;
+            filter: brightness(1.25);
+             border-radius: 8px;
+
+         }
+
+       .imgl
+         {
+            margin-bottom: 0;
+        
+
+         }
+
+
+
+         .wedding-box div
+         {
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+
+         }
+         h2{
+            margin-top: 0;
+         }
+         .lovetwotwo
+         {
+            margin-bottom: 0;
+            margin-top: 0px;
+            width: 60px;
+     
+         }
+         .jagdeesh
+         {
+            margin-top: 0px;
+            
+         }
+
+         .parvathi
+         {
+            margin-top: 0;
+            
+         }
+
+          .title-main
+          {
+            border-radius: 20px;
+            
+          }
+          .location-button
+          {
+            width:180px;
+            height:0px;
+            margin-top: -80px;
+            position: absolute;
+            margin-left:-30px ;
+            border-radius: 180px;
+            border:none;
+            
+            
+            
+          }
+          .location
+          {
+            width: 190px;
+            height: 50px;
+            background-color: rgb(245, 239, 239);
+            align-items: center;
+            border-radius: 25px;
+            
+            
+    
+          }
+          .clickherf
+          {
+
+            width: 260px;
+            font-size: 18px;
+            color:rgb(16, 16, 251); 
+            align-items: center;
+            font-style: italic;
+            font-weight: bold;
+
+          }
+
+          .vijay{
+            margin-top:-440px;
+            margin-left:-190px;
+
+            position:absolute;
+          }
+          .vijay1{
+            width:500px;
+            height:770px;
+          }
+         
+          .pic-second{
+            position: absolute;
+            margin-left:-30px;
+            width:140px;
+            height:140px;
+            margin-top:-420px;
+            border-radius: 280px;
+          }
+          .loc{
+            position:absolute;
+            border-radius: 30px;
+            height:50px;
+            margin-left:-80px;
+            width:45px;
+            margin-top:-80px;
+            
+            
+          }
+          .wrapper{
+            width:50%;
+            margin:0 auto;
+          }
+          @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            .wrapper {
+            width: 100%;
+            
+             
+        }
+        }
+
+        
+
+          
+
+         
+
+
+          
+       </style>
+
+       
+            
+    </head>
+    <body>
+        <div class="wrapper" >
+
+            <div class="banner">
+                <img  class="bg" src="bannerimg.jpg" height="100%" width="100%">
+            
+            </div>
+
+            
+
+
+            <section class="wedding-block section-scroll">
+                <div class="container">
+                    <div class="title-main">
+                        <h2 style="color: ; font-family: ;">Hello!</h2>
+                        <p class="font-arial" style="font-family: ;"> We solicit your gracious virtual presence with family &amp; friends on this auspicious occasion.</p>
+                       
+                        <div class="headin-img">
+                            <img class="imgl" src="symbol1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="wedding-member">
+                        <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="wedding-box">
+                                        <h2>
+                                        <br>
+                                             <font style="color:#e6037b;" ><p class="jagdeesh">Jagadeesh</p></font>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                     <div class="wedding-box">
+                                        <div class="lovetwo"><img  class="lovetwotwo" src="symbol2.png"  >
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-sm-4">
+                                     <div class="wedding-box">
+                                         <h2><br>
+                                             <font style="color:#e6037b;"><p class="parvathi">Parvathi</p></font>
+                                         </h2>
+                                      </div>
+                                </div>
+                         </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+        
+                 
+            
+            <div class="moves">
+                <img class="side-top1" src="jagadeesh.jpg">
+            </div>
+            <div class="moves1">
+                <img class="side-top2" src="parvathi.jpg">
+            </div>
+            
+            
+
+            <div class="banner-text">
+                <div class="title animate__animated animate__lightSpeedInLeft animate__flip" style="right:0px">
+                <h1 class="ml6 " style="opacity: 1;">
+                <span class="text-wrapper " style="color:#e6037b;font-family: ;">
+                    <span class="letters glow" style="padding-bottom: 10px;"><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>J</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>a</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>g</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>a</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>d</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>e</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>e</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>s</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>h</i></span>
+                    </span>
+                    <br>
+                    <span class="letters1 glow" style="padding-bottom: 10px;padding-top: 0px;"><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>w</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>e</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>d</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>s</i></span>
+                    </span>
+                    <br>
+                    <span class="letters2 glow" style="padding-bottom: 17px;padding-top: 0px;">
+                        <span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>P</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>a</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>r</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>v</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>a</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>t</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>h</i></span><span class="letter" style="transform: translateY(0em) translateZ(0px);"><i>i</i></span>
+                    </span>
+                </span>
+                </h1>
+                </div>
+                <div class="names"> <img class="bgforimg" src="symbol3.avif">  
+                    
+                    <div class="date-box"> 
+                        <div class="bgfordate">
+                            <img class="dateimg" src="symbol4.jpg" width="100%"> 
+                        </div>
+                        <div class="date">
+                          <marquee direction="right" width="100%"> <pre><i>At 10.20-am - - -> </i><i>On </i><i>20<sup><i>th</i></sup></i> <i>Oct</i> <i>2023</i></pre>    </marquee> 
+                        </div>
+                    </div>
+                
+                </div>
+            
+
+                 
+
+            </div>
+        </div>
+
+
+
+
+        <div class="wrapper ">
+
+            <div class="secondpage">
+
+                <div class="images-bava">
+                <img src="symbol5.jpg" class="bg2">
+                </div>
+    
+                <div class="video">
+                    <video class="videomrg" src="Marriage.mp4" controls height="30%" width="28%" loop></video>
+                </div>
+    
+                <div>
+                    <img class="bavapicsecond" src="Bava1.JPG" >
+                </div>
+                <div class="second-1">
+                    <img class="pic-second" src="marr.jpg">
+                </div>
+
+
+                <div class="locate">
+                    <img src="symbol6.jpg" class="loc">
+                    <button class="location-button">
+                        <marquee class="location" width="250%" direction="left" scrollamount="4">
+                           
+                            <a href="https://maps.app.goo.gl/yFkXqSoDZVsSKC7q7" target="_blank"> 
+                              <pre class="clickherf">Click here for the Location </pre>> ></a>
+                            
+                            </marquee>
+                    </button>
+                </div>
+    
+            </div>
+
+
+        </div>                
+    </body>
+</html>
+
+
+
+
+
+
+
+
